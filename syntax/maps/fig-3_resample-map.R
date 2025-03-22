@@ -19,8 +19,8 @@ sample_map <- ggplot() +
   geom_sf(data = tent_features, aes(size = n_dwellings), color = "red", alpha = 0.75, shape = 16) +
   scale_size_continuous("Tents    ", breaks = c(1, 5, 20), range = c(0.5, 3)) +
   facet_wrap(~wave, labeller = labeller(wave = c("1" = "Census - Summer 2019", 
-                                                 "2" ="Resample - Autumn 2019", 
-                                                 "3" ="Resample - Summer 2020")))+
+                                                 "2" = "Resample - Autumn 2019", 
+                                                 "3" = "Resample - Summer 2020")))+
   coord_sf(expand = FALSE) +
   theme_void(base_size = 12) +
   theme(text = element_text(family = "serif"),

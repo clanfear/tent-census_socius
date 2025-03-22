@@ -53,10 +53,3 @@ Files:
   /Seattle_Streets/
     Full street grid. Can look at street types.
     Source: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::seattle-streets/about
-
-Should get:
-  Transit stuff
-  Any shelter stuff possible
-
-Checked, not useful:
-  FAS Facilities data
