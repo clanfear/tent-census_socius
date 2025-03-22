@@ -1,0 +1,62 @@
+Files:
+  /Current_Land_Use_Zoning_Detail/
+    General zoning for the city; can use this to get industrial / commercial / residential
+    Source: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::current-land-use-zoning-detail/about
+  city_property_transactions_2018-12-20.csv
+    [NOT USING]
+    Transactions for public owned or managed property, updated Dec. 20 2018
+    Source: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::city-property-subject-parcels/about
+
+  city_property_areas_2018-12-20.csv
+    [LIBRARIES, A FEW FACILITIES]
+    Public owned or managed property, updated Dec. 20 2018. Should be same spots as transactions but not focused on transactions.
+    Source: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::city-property-property-management-areas/about
+
+  parks_2020-11-23.csv
+    "Parks" inside city limits. Really properties managed by Seattle parks. Includes managed buildings and offices.
+    Source: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::seattle-parks/about
+  trees_2020-11-23.csv
+    Individual trees, whether public or private, in public right of way.
+    Source: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::trees/about
+  /Bridges/
+    Bridges. Also has monorail and tunnels. Filter.
+    Source: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::bridges/about
+  street_furnishings_2020-11-23.kml
+    Street furnishings like benches, tables, rails, and clocks(?) in public right of way.
+    Source: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::street-furnishings/about
+  seattle_tax_parcel_2021-03-04
+    King County tax parcel records with some assessors data and Seattle data for land use planning. Centroid format. Can join to the actual polygons using the PIN.
+    Source: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::king-county-tax-parcel-centroids-with-select-city-of-seattle-geographic-overlays/about
+  king_county_parcel_2016-04-08
+    King county tax parcel shapes to link to the above file.
+    Source: https://gis-kingcounty.opendata.arcgis.com/datasets/kingcounty::king-county-parcels-parcel-area/about
+  kc_mental_health_substance_use_2020-07-07
+    King county contracted mental health and substance use disorder providers. Address field has coordinates.
+    Source: https://data.kingcounty.gov/Health-Wellness/King-County-Mental-Health-and-Substance-Use-Disord/sep3-3pj3
+  /Tree_Canopy_2016/
+    Shapefiles for the 2016 tree canopy extracted from LIDAR imagery. Can maybe calculate something from this.
+    Source: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::tree-canopy-2016/about
+  /Seattle_Parks/
+    Shapefiles for Seattle parks
+    Source: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::seattle-parks/about
+  /Public_and_Open_Spaces_in_Seattle/
+    Publicly accessible open places. This includes parks but has other things too. Hopefully can filter so parks can be treated as separate.
+    Source: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::publicspaceseattle/about
+  /Public_Garages_or_Parking_Lots/
+    Source: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::public-garages-or-parking-lots/about
+  /Multi-use_Trails_(Seattle_Only)/
+    Multi-use trails: Bike / pedestrian paths
+    Source: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::multi-use-trails-seattle-only/about
+  /Sidewalks/
+    Sidewalks, which includes width of sidewalk
+    Source: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::sidewalks/about
+  /Seattle_Streets/
+    Full street grid. Can look at street types.
+    Source: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::seattle-streets/about
+
+Should get:
+  Transit stuff
+  Any shelter stuff possible
+
+Checked, not useful:
+  FAS Facilities data
